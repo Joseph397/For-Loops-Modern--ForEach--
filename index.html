@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For loops modern, ForEach()</title>
+  </head>
+  <body>
+    <script>
+      // const titles = ["Dev Ed", "Barbie", "Logic", "Mf Doom", "Tool"];
+
+      // // Diffrent for Loop option
+      // // Compatible with break statement
+
+      // for(let name of titles){
+      //     console.log(name); // logs items in array title in order
+      //     console.log(titles.indexOf(name)); // logs indices
+      // }
+
+      // forEach- SPECIFICALLY FOR ARRAYS
+      // not compatible with break statements
+
+      // const titles = ["Dev Ed", "Barbie", "Logic", "Mf Doom", "Tool"];
+
+      // titles.forEach(function(name){ // forEach is a function that has another function as its peramiter(callback)
+      //   console.log(name);
+      // })
+
+      // forEach ex:2
+      const titles = ["Dev Ed", "Barbie", "Logic", "Mf Doom", "Tool"];
+
+      titles.forEach(function(name, index){ // also takes in a peramiter of index
+        console.log(name, index); // logs name and index
+      })
+
+    </script>
+  </body>
+</html>
